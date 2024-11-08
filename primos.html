@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6f19dc2078.js" crossorigin="anonymous"></script>
+    <title>Números primos</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <h1>MateFaciles</h1>
+
+    <nav>
+        <ul>
+           
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="MCM.html">Mínimo Común Múltiplo</a></li>
+            <li><a href="MCD.html">Máximo Común Divisor</a></li>
+            
+        </ul>
+    </nav>
+</header>
+    <main class="">
+        <h1 class="tituloprimos">¿Qué son los números primos?</h1>
+        <section class="general">
+            <h2>Definición:</h2>
+            <p>Un número primo es un número mayor que 1 que solo tiene dos divisores: 1 y él mismo. Esto significa que un número primo no puede dividirse de manera exacta por ningún otro número que no sea el 1 y él mismo.  </p>
+       
+    <p><b>Ejemplos:</b> 2, 3, 5, 7, 11, 13, 17, y así sucesivamente. </p>
+    <p>Los números primos son esenciales porque cualquier número puede descomponerse en una serie de factores primos. Esta descomposición, conocida como <b>“factorización prima”</b>, nos facilitará el cálculo de divisores y múltiplos comunes entre números (para comprender el MCD y el MCM).</p>
+    <p class="videos"><b>Video de apoyo:</b><a href="https://youtu.be/e1XtzmR-4jk?feature=shared">https://youtu.be/e1XtzmR-4jk?feature=shared</p></a>
+</section>
+
+<section class="general">
+    <img src="Fotos/Números primos del 1 al 100 (1).jpg" alt="" class="img-primos-1-100">
+    <h2>La criba de Eratóstenes</h2>
+    <p class="criba">La Criba de Eratóstenes es un método antiguo y eficiente para encontrar todos los números primos hasta un número determinado. Fue ideada por el matemático griego Eratóstenes alrededor del siglo III a. C. y sigue siendo una de las formas más rápidas de identificar números primos dentro de un rango.</p>
+
+<h2>¿Cómo funciona?</h2>
+<p>La criba elimina progresivamente los múltiplos de cada número primo, dejando solo los números primos en la lista. Aquí te explico el proceso paso a paso:</p>
+  <ul>
+    <li>Escribe una lista de números consecutivos desde 2 hasta el número máximo que quieras comprobar. Por ejemplo, si quieres encontrar los primos hasta el 100, escribe los números del 2 al 100.</li>
+  <li>Comienza con el primer número primo de la lista, que es el 2.</li>
+<li>Tacha todos los múltiplos de 2 (excepto el mismo 2), ya que no pueden ser primos. Los números como 4, 6, 8, etc., serán tachados.</li>
+<li>Pasa al siguiente número no tachado en la lista (en este caso, el 3). Este es el siguiente número primo. Luego, tacha todos sus múltiplos (6, 9, 12, etc.).</li>
+<li>Continúa con el siguiente número no tachado y repite el proceso. Después de 3, el siguiente número no tachado es el 5, así que tachas todos sus múltiplos (10, 15, 20, etc.).</li>
+</ul>  
+<p>Repite el proceso hasta que hayas recorrido todos los números de la lista. Al final, los números que queden sin tachar son primos.</p>
+
+<p class="videos"><b>Video de apoyo:</b><a href="https://www.youtube.com/watch?v=7i-qYjXX_X4&authuser=0">https://www.youtube.com/watch?v=7i-qYjXX_X4&authuser=0</a>
+</section>
+
+<section class="general"></section>
+<img src="Fotos/Factorización prima de 60.jpg" alt="" class="img-factorizacion">
+<h2>La factorización prima</h2>
+<p class="factorizacion">La factorización prima es el proceso de descomponer un número en sus factores primos, es decir, los números primos que, multiplicados entre sí, dan como resultado el número original.</p>
+
+<h2>¿Cómo realizarla?</h2>
+<ul>
+    <li><b>Elige el número que quieres descomponer.</b> Por ejemplo, si queremos factorizar el 60, comenzamos con ese número.</li>
+    <li><b>Divide el número entre el menor número primo posible y anota el cociente (resultado).</b> Continúa dividiendo entre números primos hasta llegar al 1.</li>
+<li><b>Escribe los factores primos como un producto.</b> Cuando el número ya no puede dividirse más, habremos encontrado sus factores primos.</li>
+</ul>
+
+<p class="videos"><b>Puedes ver la imágen que esta a la derecha para una descripción más detallada.</b></p>
+<p class="videos"><b>Video de apoyo:</b><a href="https://www.youtube.com/watch?v=NPaBFe6QBDQ&authuser=0">https://www.youtube.com/watch?v=NPaBFe6QBDQ&authuser=0</a></p>
+    </main>
+
+    <footer>
+        <section class="redessociales">
+            <div class="redes">
+                <a href="https://www.instagram.com/aadriarn/" class="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+               
+                <a href="https://www.facebook.com/profile.php?id=100082614292994&mibextid=LQQJ4d" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                
+                
+               
+            </div>
+        </section>
+        <p>&copy;2024 MateFaciles. Todos los derechos reservados.</p>
+       
+    </footer>
+</body>
+</html>

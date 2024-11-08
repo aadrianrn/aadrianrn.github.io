@@ -1,0 +1,315 @@
+/* contenedores universales 
+para configurar valores universales de la caja */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; /*para manejar % en vez de px*/    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    text-align: justify;
+ 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  
+ 
+}
+
+header h1 {
+    margin: 0%;
+ text-align: center;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: #00aaff;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    text-align: left;
+   width: 100%;
+   float: left; /*para alinear las cajas que estan abajo arriba a la izquierda*/
+}
+
+nav ul li {
+float: left;
+list-style: none; /*quitar los estilos de los links*/
+background-color: #000000;
+} 
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    float: left;
+    background-color: #000000;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    color: #00aaff;
+}
+
+
+main {
+    padding: 20px;
+    float: left;
+    background-color: #ebebeb;
+    color: #000000;
+}
+
+main h1 {
+    text-align: center;
+}
+
+footer .redessociales {
+    clear: both;
+    background-color: #000000;
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    clear: both;
+    float: left;
+    text-align: center;
+}
+
+footer .redessociales .redes a {
+    color: #ffffff;
+    text-align: center;
+    width: 45px;
+    display: block;
+    padding: 10px ;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: center;
+}
+
+section h1 {
+    padding: 10px;
+    text-align: left;
+}
+
+.autor {
+    text-align: left;
+    padding: 15px;
+    
+}
+
+.proposito {
+    width: 40%;
+    float: left;
+    padding: 25px;
+}
+
+.img-proposito {
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding: 25px;
+}
+
+.classroom {
+    width: 70%;
+    float: right;
+    padding: 25px;
+}
+
+.img-classroom {
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding: 0px;
+
+}
+
+.explicacion {
+    float: left;
+    padding: 25px;
+    width: 70%;
+}
+
+.unirse {
+    float: left;
+    padding: 25px;
+    width: 70%;
+}
+
+.invitacion {
+    float: left;
+    padding: 25px;
+    width: 70%;
+    text-align: center;
+}
+
+
+
+
+
+
+.interesante {
+    width: 30%;
+    float: right;
+    background-color: #333;
+    color: #ffffff;
+    padding: 25px;
+}
+
+aside div {
+    
+    padding: 20px 0px;
+    
+}
+
+article a {
+    color: #1877f2;
+}
+
+aside article {
+    padding: 10px 0px;
+}
+  
+h2 {
+    text-align: center;
+}
+
+
+footer .redessociales .facebook:hover {
+    background-color: #1877f2;
+}
+
+
+footer .redessociales .instagram:hover{
+    background-color: #c13584;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+
+
+
+PAGINA WEB NUMEROS PRIMOS
+
+
+.numeros-primos {
+    width: 100%;
+    padding: 25px;
+    text-align: justify;
+
+}
+
+.numeros-primos h1 {
+    text-align: center;
+    
+}
+
+.general {
+    padding: 25px;
+}
+
+.titulonprimos {
+    padding: 25px;
+}
+
+.videos {
+text-align: center;
+padding: 15px;
+}
+
+.img-primos-1-100 {
+    width: 30%;
+    padding: 25px;
+    float: left;
+
+}
+
+.criba {
+    width: 70%;
+    padding: 25px;
+    float: right;
+}
+
+.img-factorizacion {
+    width: 35%;
+    padding: 25px;
+    float: right;
+}
+
+.factorizacion {
+    width: 65%;
+    padding: 25px;
+    float: left;
+}
+
+li {
+    padding: 5px;
+}
+
+.centro {
+    text-align: center;
+}
+
+.metodos{
+    width: 100%;
+    padding: 25px;
+}
+
+.izquierda {
+    text-align: center;
+ float: left;
+  padding: 10px;
+    width: 50%;
+   
+}
+
+
+.derecha {
+    text-align: center;
+    float: right;
+  padding: 10px;
+    width: 50%;
+    
+}
+
+.img-1 {
+width: 35%;
+float: left;
+padding: 20px;
+}
+
+.img-2 {
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+
+.img-11 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    }
+    
+    .img-22 {
+        width: 45%;
+        float: right;
+        padding: 20px;
+    }
